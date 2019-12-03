@@ -7,6 +7,14 @@
    http://www.springframework.org/schema/context
    http://www.springframework.org/schema/context/spring-context-4.3.xsd">
    
-<!-- 	<bean id="vehicle" class="com.saurabh.spring.Bike"></bean> -->
-<context:component-scan base-package="com.saurabh.spring"></context:component-scan>	
+<!--<bean id="vehicle" class="com.saurabh.spring.Bike"></bean> -->
+<context:component-scan base-package="com.saurabh.spring"></context:component-scan>
+
+<!-- <bean id="tyre" class="com.saurabh.spring.Tyre"> -->
+<!--  setter used  for property tag -->
+<!-- <property name="brand" value="Ceat"></property> -->
+<!-- <constructor-arg value="MRF"></constructor-arg> -->
+<!--  Constructor can also be used  for property tag --> 
+<!-- </bean>  -->
+	
 </beans>
